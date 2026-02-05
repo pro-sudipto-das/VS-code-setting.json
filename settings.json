@@ -1,15 +1,21 @@
 {
-  "editor.fontSize": 21,
-  "editor.fontFamily": "Courier New, monospace",
+  "editor.fontSize": 20,
+  "editor.fontFamily": "Lucida Console",
   "editor.fontLigatures": true,
   "editor.fontWeight": "bold",
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "expand",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.formatOnType": true,
+  "indentRainbow.colors": [
+    "rgba(255,255,64,0.2)",
+    "rgba(127,255,127,0.2)",
+    "rgba(255,127,255,0.2)",
+    "rgba(79,236,236,0.2)",
+  ],
   "workbench.colorCustomizations": {
     "editor.background": "#000000",
     "editorGroupHeader.tabsBackground": "#000",
@@ -22,19 +28,19 @@
     "terminal.background": "#000",
     "statusBar.background": "#000",
     "scrollbarSlider.background": "#f9ca24",
-    "scrollbarSlider.hoverBackground": "#706fd3"
+    "scrollbarSlider.hoverBackground": "#706fd3",
   },
   "editor.tokenColorCustomizations": {
-    "comments": "#95afc0"
+    "comments": "#95afc0",
   },
   "editor.linkedEditing": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
   "editor.guides.bracketPairsHorizontal": true,
-  "editor.hover.enabled": false,
+  "editor.hover.enabled": "off",
   "window.zoomLevel": 1,
   // Live Server
-  "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
+  "liveServer.settings.CustomBrowser": "firefox:PrivateMode",
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
   // Live SASS Compiler
@@ -42,8 +48,8 @@
     {
       "format": "compressed",
       "extensionName": ".min.css",
-      "savePath": "/css"
-    }
+      "savePath": "/css",
+    },
   ],
   "liveSassCompile.settings.generateMap": false,
   // VS Code Theme Customization
@@ -63,7 +69,7 @@
   "prettier.arrowParens": "avoid",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
+    "editor.defaultFormatter": "vscode.html-language-features",
   },
   // Screencast Mode
   "screencastMode.onlyKeyboardShortcuts": true,
@@ -72,6 +78,26 @@
 
   // Enable Emmet support for JSX
   "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  }
+    "javascript": "javascriptreact",
+  },
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "workbench.settings.applyToAllProfiles": [
+  
+  ],
+  "color-highlight.matchHslWithNoFunction": true,
+  "color-highlight.matchRgbWithNoFunction": true,
+  "color-highlight.matchWords": true,
+  "files.autoSave": "afterDelay",
+  "explorer.confirmDelete": false,
+  "workbench.editor.empty.hint": "hidden",
+  "terminal.integrated.initialHint": false,
+  "chat.instructionsFilesLocations": {
+    ".github/instructions": true,
+    "C:\\Users\\HACATH~1\\AppData\\Local\\Temp\\postman-collections-post-response.instructions.md": true,
+    "C:\\Users\\HACATH~1\\AppData\\Local\\Temp\\postman-collections-pre-request.instructions.md": true,
+    "C:\\Users\\HACATH~1\\AppData\\Local\\Temp\\postman-folder-post-response.instructions.md": true,
+    "C:\\Users\\HACATH~1\\AppData\\Local\\Temp\\postman-folder-pre-request.instructions.md": true,
+    "C:\\Users\\HACATH~1\\AppData\\Local\\Temp\\postman-http-request-post-response.instructions.md": true,
+    "C:\\Users\\HACATH~1\\AppData\\Local\\Temp\\postman-http-request-pre-request.instructions.md": true
+  },
 }
